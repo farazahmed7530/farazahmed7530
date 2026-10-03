@@ -20,6 +20,12 @@ cites where it came from. Retrieval decides what is true; generation only decide
 Structure-aware chunking, BM25 ranking rather than embeddings (no API key, and the ranking is
 explainable), and a deterministic default mode that cannot hallucinate.
 
+**[Policy Attestation Platform](https://github.com/farazahmed7530/policy-attestation-platform)**
+— FastAPI + Next.js. Publish internal policies, collect attestations, and prove afterwards
+exactly which words each person agreed to. Policy versions are immutable: editing publishes a
+new version rather than mutating an old one, so a signature made in January still means what
+it meant in January, even after a March rewrite.
+
 **Sales workflow automation** (Programmers Force) — automation for account executives: a
 copilot for the repetitive parts of the sales motion, and a document-to-deck pipeline that
 retrieves the relevant source material and generates the presentation an AE would otherwise
