@@ -14,6 +14,12 @@ audit log, so editing any historical row breaks every hash after it and `/api/au
 reports exactly where. Because the auditor's real question isn't *"what does the record say?"*
 — it's *"can you prove it wasn't edited?"*
 
+**[Sourcedeck](https://github.com/farazahmed7530/sourcedeck)** — Next.js + TypeScript. Upload
+documents, name a topic, get a deck where every bullet is quoted from a source and every slide
+cites where it came from. Retrieval decides what is true; generation only decides how it reads.
+Structure-aware chunking, BM25 ranking rather than embeddings (no API key, and the ranking is
+explainable), and a deterministic default mode that cannot hallucinate.
+
 **Sales workflow automation** (Programmers Force) — automation for account executives: a
 copilot for the repetitive parts of the sales motion, and a document-to-deck pipeline that
 retrieves the relevant source material and generates the presentation an AE would otherwise
