@@ -26,6 +26,13 @@ exactly which words each person agreed to. Policy versions are immutable: editin
 new version rather than mutating an old one, so a signature made in January still means what
 it meant in January, even after a March rewrite.
 
+**[Vendor Risk Assessment Platform](https://github.com/farazahmed7530/vendor-risk-assessment-platform)**
+— FastAPI + Next.js. Send security questionnaires to vendors, score the replies, and show how
+each score was reached: section scores, the criticality multiplier, and the answers
+contributing most. Vendors answer through a tokenised link with no account, and the
+questionnaire is sent stripped of its scoring — a vendor who can see that "No" scores 90 is
+being invited to answer the scoring rather than the question.
+
 **Sales workflow automation** (Programmers Force) — automation for account executives: a
 copilot for the repetitive parts of the sales motion, and a document-to-deck pipeline that
 retrieves the relevant source material and generates the presentation an AE would otherwise
